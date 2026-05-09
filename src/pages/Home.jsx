@@ -26,7 +26,7 @@ export default function Home({ audioRef }) {
             <span className="home-name"> Kandamma</span>
           </motion.h1>
           <motion.p className="home-tagline" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.5 }}>
-            ಜನ್ಮ ನೀಡಿದವಳನ್ನು 'ಅಮ್ಮ' ಎಂದು ಕರೆದಮೇಲೆ, ಜೀವನ ನೀಡಿದವಳನ್ನು ಕೂಡ 'ಅಮ್ಮ' ಎಂದೇ ಕರೆಯಬಹುದು 💗
+            ಜನ್ಮ ಕೊಟ್ಟವಳನ್ನು 'ಅಮ್ಮ' ಎಂದು ಕರೆದಮೇಲೆ, ಜೀವನ ಕೊಟ್ಟವಳನ್ನು ಏಕೆ 'ಅಮ್ಮ' ಎಂದು ಕರೆಯಬಾರದು 💗
           </motion.p>
 
           <MusicOrb audioRef={audioRef} />
